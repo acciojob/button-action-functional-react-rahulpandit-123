@@ -9,7 +9,7 @@ function App() {
   return (
     <div id="main">
       <button id="click" onClick={para}>click me</button>
-      <p>{paragraph}</p>
+      {paragraph && <p>{paragraph}</p> }
     </div>
   );
 }
